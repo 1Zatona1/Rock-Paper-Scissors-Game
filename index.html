@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Zatona's Website</title>
+        <link rel="icon" type="image/jpg" href="images/icons8-work-100.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1 id="myH1">Rock - Paper - Scissors</h1>
+        <div class="choices">
+            <button onclick="playGame('rock')">👊</button>
+            <button onclick="playGame('paper')">✋</button>
+            <button onclick="playGame('scissors')">✌</button>        
+        </div>
+
+        <div id="playerDisplay">Player Choice: </div>
+        <div id="computerDisplay">Computer Choice: </div>
+
+        <div id="resultDisplay"></div>
+
+        <div class="scoreDisplay">Player Score: 
+            <span id="playerScore">0</span>
+        </div>
+        <div class="scoreDisplay">Computer Score: 
+            <span id="computerScore">0</span>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
